@@ -51,9 +51,9 @@ void MergeSort(int array[], int low, int high){
 
 }
 int main() {
-    int array[8] = {8,6,2,3,4,1,5,9};
-    MergeSort(array,0, 7);
-    for(int i=0;i<8;i++)
-        cout<<"array["<<i<<"]= "<<array[i]<<endl;
-    return 0;
+//    int array[8] = {8,6,2,3,4,1,5,9};
+//    MergeSort(array,0, 7);
+//    for(int i=0;i<8;i++)
+//        cout<<"array["<<i<<"]= "<<array[i]<<endl;
+//    return 0;
 }
