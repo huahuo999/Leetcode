@@ -1,7 +1,20 @@
 #include <iostream>
 using namespace std;
+#define MaxVertexNum
+typedef struct ArcCode{
+    int toVertex;
+    struct ArcNode *next;
+}ArcCode;
 
+typedef struct Vertex{
+    int data;
+    ArcCode* first;
+}Vertex,VertexList[MaxVertexNum];
 
+typedef struct AdjList{
+    VertexList vertexList;
+    int VertexNum, ArcNum;
+}AdjList;
 typedef struct disjointSet{
     int* set;
     int length;
